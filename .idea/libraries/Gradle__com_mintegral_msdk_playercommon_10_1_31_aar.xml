@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mintegral.msdk:playercommon:10.1.31@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/playercommon-10.1.31.aar/a56c27290307b7d522e72d636da6eb4f/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/playercommon-10.1.31.aar/a56c27290307b7d522e72d636da6eb4f/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/playercommon-10.1.31.aar/a56c27290307b7d522e72d636da6eb4f/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mintegral.msdk/playercommon/10.1.31/bcfd4e465227afd340e14c772260f4d0c8dcdc8f/playercommon-10.1.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

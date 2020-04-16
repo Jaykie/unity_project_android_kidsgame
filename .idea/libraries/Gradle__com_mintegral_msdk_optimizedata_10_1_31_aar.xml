@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mintegral.msdk:optimizedata:10.1.31@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/optimizedata-10.1.31.aar/bc165ed5e8cfd90cf78d6b0d729c44ab/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/optimizedata-10.1.31.aar/bc165ed5e8cfd90cf78d6b0d729c44ab/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/optimizedata-10.1.31.aar/bc165ed5e8cfd90cf78d6b0d729c44ab/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mintegral.msdk/optimizedata/10.1.31/2fb2319aadf3ab905c203b43b21bafc51ea2e3ce/optimizedata-10.1.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

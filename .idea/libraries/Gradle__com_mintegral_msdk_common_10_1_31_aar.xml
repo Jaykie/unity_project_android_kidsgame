@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mintegral.msdk:common:10.1.31@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/common-10.1.31.aar/0394f432bb09449116721147b887d328/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/common-10.1.31.aar/0394f432bb09449116721147b887d328/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/common-10.1.31.aar/0394f432bb09449116721147b887d328/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mintegral.msdk/common/10.1.31/9c4d935f60620f7eec9a15eb03a7a7f29cdf733c/common-10.1.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

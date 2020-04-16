@@ -1,0 +1,25 @@
+{
+    "platform": [
+        {
+            "source": "gdt",
+            "appname": "中华成语大会_ad2.0",
+            "appid": "1109864378",
+            "key_splash": "0",
+            "key_splash_insert": "3080295487282657",
+            "key_insert": "3080295487282657",
+            "key_native": "0",
+            "key_video": "4000398407980659",
+            "key_banner": "6020590427887606"
+        },
+        {
+            "source": "inmobi",
+            "appname": " 宝宝汉字园ios",
+            "appid": "18da910b826940e1abbb916e69dda1f2",
+            "key_splash": "1479236195364",
+            "key_splash_insert": "1479236195364",
+            "key_banner": "1523340159464",
+            "key_insert": "1479236195364",
+            "key_video": "1524347726172"
+        }
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "APPID": {
+        "appstore": "1505508252"
+    }, 
+    "APPTONGJI_ID": "5711d87e67e58ef4b3000124", 
+    "PAY": {
+        "qq": {
+            "id": "0", 
+            "key": "0"
+        }, 
+        "weixin": {
+            "id": "0", 
+            "key": "0"
+        }
+    }, 
+    "SHARE": {
+        "HAVE_SHARE": false, 
+        "platform": [
+            {
+                "id": "0", 
+                "key": "0", 
+                "source": "weixin"
+            }, 
+            {
+                "id": "0", 
+                "key": "0", 
+                "source": "qq"
+            }, 
+            {
+                "id": "0", 
+                "key": "0", 
+                "source": "weibo"
+            }
+        ], 
+        "umeng": {
+            "id": "5711d87e67e58ef4b3000124", 
+            "key": "0"
+        }
+    }
+}

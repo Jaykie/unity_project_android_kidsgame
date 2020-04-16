@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mintegral.msdk:mtgbid:10.1.31@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mtgbid-10.1.31.aar/c543585faae0273166d9d22a05b124c2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mtgbid-10.1.31.aar/c543585faae0273166d9d22a05b124c2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/mtgbid-10.1.31.aar/c543585faae0273166d9d22a05b124c2/jars/libs/classes-2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mintegral.msdk/mtgbid/10.1.31/877c59ef4cbe6dc572d6930bef8e324dc1b5f7c0/mtgbid-10.1.31-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

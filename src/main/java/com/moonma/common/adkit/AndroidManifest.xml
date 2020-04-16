@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.moonma.fillcoloranimal" xmlns:tools="http://schemas.android.com/tools" android:installLocation="preferExternal">
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+    <application   android:theme="@style/UnityThemeSelector" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:isGame="true" android:banner="@mipmap/ic_launcher">
+        <activity android:label="@string/app_name" android:screenOrientation="fullSensor" android:launchMode="singleTask" android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density" android:hardwareAccelerated="false" android:name="com.moonma.unity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+            </intent-filter>
+            <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+        </activity>
+        <meta-data android:name="unity.build-id" android:value="09fe016c-a8b8-4a29-8b76-566882a82a0d" />
+        <meta-data android:name="unity.splash-mode" android:value="0" />
+        <meta-data android:name="unity.splash-enable" android:value="True" />
+
+        <!-- gdt ad -->
+        <service android:name="com.qq.e.comm.DownloadService" android:exported="false" />
+        <!-- 请开发者注意字母的大小写，ADActivity，而不是AdActivity -->
+        <activity android:name="com.qq.e.ads.ADActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <!-- gdt ad end-->
+
+        <!-- xiaomi ad sdk -->
+        <activity android:name="com.xiaomi.ad.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:exported="false" android:screenOrientation="behind" android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <!-- umeng -->
+        <meta-data android:value="568e1736e0f55aba970013a4" android:name="UMENG_APPKEY"></meta-data>
+        <meta-data android:value="umeng" android:name="UMENG_CHANNEL"/>
+
+        <!--weibo sdk-->
+        <activity android:name="com.sina.weibo.sdk.web.WeiboSdkWebActivity" android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name="com.umeng.socialize.media.WBShareCallBackActivity" android:configChanges="keyboardHidden|orientation" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" android:launchMode="singleTask" android:name="com.sina.weibo.sdk.share.WbShareTransActivity">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
+
+
+
+        <!--qq share sdk 完整版：-->
+        <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="singleTask" android:noHistory="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent100424468" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name="com.tencent.connect.common.AssistActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="orientation|keyboardHidden|screenSize"/>
+
+        <!--分享编辑页(只有新浪微博，精简版，豆瓣，人人，腾讯微博，领英，twitter需要)：-->
+        <activity android:name="com.umeng.socialize.editorpage.ShareActivity" android:theme="@android:style/Theme.NoTitleBar" android:excludeFromRecents="true" />
+
+
+
+
+        <!--  Vungle SDK start-->
+        <activity android:name="com.vungle.warren.ui.VungleActivity" android:configChanges="keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize" android:launchMode="singleTop" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <!--  Vungle SDK end-->
+
+        <!-- mobvista ad sdk -->
+        <service android:name="com.mintegral.msdk.shell.MTGService">
+            <intent-filter>
+                <action android:name="com.mintegral.msdk.download.action" />
+            </intent-filter>
+        </service>
+
+        <!-- mintegral base activity-->
+        <activity android:name="com.mintegral.msdk.activity.MTGCommonActivity" android:configChanges="keyboard|orientation" android:screenOrientation="portrait" android:exported="true" android:theme="@android:style/Theme.Translucent.NoTitleBar">
+        </activity>
+
+        <!-- if appwall need added Immersive Mode，pls plus android:theme="@style/MintegralAppTheme" attribute -->
+        <!-- android:theme="@style/MintegralAppTheme" -->
+        <activity android:name="com.mintegral.msdk.shell.MTGActivity" android:configChanges="keyboard|orientation" android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+
+        <activity android:name=".NativeVideoRecycleViewActivity" android:configChanges="orientation|keyboardHidden|screenSize" />
+        <!-- Include the AdActivity configChanges and theme. -->
+        <!--integration rewardVideo if aggregation nativeX pls add start -->
+        <activity android:name="com.google.android.gms.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" android:theme="@android:style/Theme.Translucent" />
+
+        <activity android:name="com.mintegral.msdk.out.LoadingActivity" />
+        <!--integration rewardVideo if aggregation nativeX pls add end -->
+
+        <!--integration rewardVideo if aggregation applovin pls add start -->
+        <meta-data android:name="applovin.sdk.key" android:value="HmrZmGOS5KNRGvmbOGt-cc6o2hvL4KeL5TwrkIIqdfFvZ0UyGMxtz1f_iTLnu-7-S1pBK5_ymFrJFKGWgBNeD1" />
+
+        <!--integration rewardVideo if aggregation applovin pls add end -->
+        <!--integration interstitial needed activty start  -->
+        <activity android:name="com.mintegral.msdk.interstitial.view.MTGInterstitialActivity" android:screenOrientation="portrait" android:configChanges="orientation|screenSize"/>
+        <!--integration interstitial needed activty end  -->
+        <!--integration offerwall needed activty start  -->
+        <activity android:name="com.mintegral.msdk.offerwall.view.MTGOfferWallActivity" android:screenOrientation="portrait" android:configChanges="screenSize|orientation"/>
+        <activity android:name="com.mintegral.msdk.offerwall.view.MTGOfferWallRewardVideoActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:screenOrientation="landscape" />
+        <!--integration offerwall needed activty end  -->
+        <activity android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        <activity android:name="com.mintegral.msdk.videofeeds.vfplayer.VideoFeedsActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:screenOrientation="portrait" />
+
+        <activity android:name="com.mintegral.msdk.mtgjscommon.authority.activity.MTGAuthorityActivity" android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+
+        <receiver android:name="com.alphab.receiver.AlphabReceiver" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.mintegral.msdk.click.AppReceiver">
+            <intent-filter>
+                <!-- 一个新应用包已经安装在设备上，数据包括包名（监听所在的app，新安装时，不能接收到这个广播） -->
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+    <uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+
+
+    <!-- GDT SDK 相关声明 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!--umeng share-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+
+    <!-- AdView SDK mandatory or important permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- AdView SDK end -->
+
+    <!-- google play 内购 -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <!-- google play内购 end -->
+
+</manifest>

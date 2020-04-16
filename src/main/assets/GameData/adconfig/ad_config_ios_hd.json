@@ -1,0 +1,25 @@
+{
+    "platform": [
+        {
+            "source": "gdt",
+            "appname": "中华唐诗大会HD_ad2.0",
+            "appid": "1109790135",
+            "key_splash": "0",
+            "key_splash_insert": "5020884421420256",
+            "key_insert": "5020884421420256",
+            "key_native": "0",
+            "key_video": "2050081491826217",
+            "key_banner": "5040787461327265"
+        },
+        {
+            "source": "inmobi",
+            "appname": " 宝宝汉字园ios",
+            "appid": "18da910b826940e1abbb916e69dda1f2",
+            "key_splash": "1479236195364",
+            "key_splash_insert": "1479236195364",
+            "key_banner": "1523340159464",
+            "key_insert": "1479236195364",
+            "key_video": "1524347726172"
+        }
+    ]
+}

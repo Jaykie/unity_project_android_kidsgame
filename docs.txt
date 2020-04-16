@@ -1,0 +1,4 @@
+1，android studio 更换了包名无法调试的问题：
+
+	https://bbs.csdn.net/topics/391948227
+	单纯clean project是不行的，你选择File-Invalidate Caches/Restart，清除缓存，重启AS，才能正常运行。

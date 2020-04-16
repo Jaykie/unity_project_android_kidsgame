@@ -1,0 +1,42 @@
+{
+    "APPID": {
+        "huawei": "101963725", 
+        "taptap": "0", 
+        "xiaomi": "0"
+    }, 
+    "APPTONGJI_ID": "5711d801e0f55a54e00005aa", 
+    "PAY": {
+        "qq": {
+            "id": "0", 
+            "key": "0"
+        }, 
+        "weixin": {
+            "id": "0", 
+            "key": "0"
+        }
+    }, 
+    "SHARE": {
+        "HAVE_SHARE": false, 
+        "platform": [
+            {
+                "id": "0", 
+                "key": "0", 
+                "source": "weixin"
+            }, 
+            {
+                "id": "0", 
+                "key": "0", 
+                "source": "qq"
+            }, 
+            {
+                "id": "0", 
+                "key": "0", 
+                "source": "weibo"
+            }
+        ], 
+        "umeng": {
+            "id": "0", 
+            "key": "0"
+        }
+    }
+}

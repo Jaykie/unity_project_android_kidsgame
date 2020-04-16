@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:./libs/ad_lib/gdt/ks_adsdk-2.2.4.aar:unspecified@jar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ks_adsdk-2.2.4.aar/64e32bb0217326737e48f643afbeb675/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ks_adsdk-2.2.4.aar/64e32bb0217326737e48f643afbeb675/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ks_adsdk-2.2.4.aar/64e32bb0217326737e48f643afbeb675/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
